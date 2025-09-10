@@ -1,0 +1,84 @@
+ 
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      body {
+        background: linear-gradient(135deg, #f0f9ff 0%, #e6f7ff 100%);
+        color: #2d3748;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        line-height: 1.6;
+        padding: 20px;
+      }
+
+      .container {
+        max-width: 800px;
+        width: 100%;
+        margin: 0 auto;
+      }
+
+      .hero {
+        background: rgba(255, 255, 255, 0.95);
+        border-radius: 20px;
+        padding: 60px 40px;
+        box-shadow: 0 15px 30px rgba(0, 123, 255, 0.1);
+        text-align: center;
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.5);
+      }
+
+      .name {
+        font-size: 3rem;
+        font-weight: 700;
+        color: #0070f3;
+        margin-bottom: 15px;
+      }
+
+      .subtitle {
+        font-size: 1.4rem;
+        font-weight: 400;
+        color: #4a5568;
+        margin-bottom: 35px;
+      }
+
+      .cta-button {
+        display: inline-block;
+        background: #0070f3;
+        color: white;
+        padding: 14px 35px;
+        font-size: 1.1rem;
+        font-weight: 500;
+        border-radius: 10px;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        border: 2px solid #0070f3;
+        cursor: pointer;
+      }
+
+      .cta-button:hover {
+        background: white;
+        color: #0070f3;
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(0, 112, 243, 0.2);
+      }
+
+      @media (max-width: 768px) {
+        .hero {
+          padding: 40px 25px;
+        }
+
+        .name {
+          font-size: 2.2rem;
+        }
+
+        .subtitle {
+          font-size: 1.2rem;
+        }
+      }
+    
